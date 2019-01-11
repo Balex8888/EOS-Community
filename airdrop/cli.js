@@ -243,7 +243,7 @@ const snapshotCsvToJson = async (snapshotMonth) => {
   } else if (snapshotMonth === 'December') { 
     csvFilePath = './airdrop-snapshots/20181201_account_snapshot.csv'; // Debember 1st
   } else if (snapshotMonth === 'January') { 
-    // csvFilePath = './airdrop-snapshots/20181101_account_snapshot.csv'; // Update with January
+    csvFilePath = './airdrop-snapshots/20190101_account_snapshot.csv'; // Updated with January 1st 2019
   }
   var snapshotJson = await csv()
   .fromFile(path.resolve(__dirname, csvFilePath)).then((jsonObj)=>{
