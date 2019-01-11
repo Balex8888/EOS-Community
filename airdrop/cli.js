@@ -66,7 +66,7 @@ const askQuestions = async () => {
         name: "SNAPSHOT_MONTH",
         type: "list",
         message: "Which Snapshot would you like to use?:",
-        choices: ["Genesis", "Jungle Testnet", "July", "August", "September", "October", "November", "December"],
+        choices: ["Genesis", "Jungle Testnet", "July", "August", "September", "October", "November", "December", "January 2019"],
       },
     ];
 
@@ -242,7 +242,7 @@ const snapshotCsvToJson = async (snapshotMonth) => {
     csvFilePath = './airdrop-snapshots/20181101_account_snapshot.csv'; // November 1st
   } else if (snapshotMonth === 'December') { 
     csvFilePath = './airdrop-snapshots/20181201_account_snapshot.csv'; // Debember 1st
-  } else if (snapshotMonth === 'January') { 
+  } else if (snapshotMonth === 'January 2019') { 
     csvFilePath = './airdrop-snapshots/20190101_account_snapshot.csv'; // Updated with January 1st 2019
   }
   var snapshotJson = await csv()
