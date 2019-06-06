@@ -1,6 +1,6 @@
 # Welcome to the EOS-Airdrop-Tool
 ![full_airdrop.PNG](https://github.com/Byzantine-Works/EOS-Wallet-Integrations/blob/master/airdrop/screenshots/full_airdrop.PNG?raw=true)
-![react_ui.PNG](https://github.com/Byzantine-Works/EOS-Wallet-Integrations/blob/master/airdrop/screenshots/react_ui.PNG?raw=true)
+![react_ui.PNG](https://github.com/Balex8888/EOS-Community/blob/master/airdrop/screenshots/react_ui.PNG?raw=true)
 
 
 - EOS-Airdrop-Utility (wallet++)
