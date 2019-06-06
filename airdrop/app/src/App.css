@@ -48,6 +48,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 .header .logo {
   width: 150px;
+  margin-left: 50px;
   float: left;
 }
 
@@ -62,6 +63,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 .header .menuSections {
   float: right;
+  margin-right: 50px;
 }
 
 .header .menuSections nav ul li {

@@ -113,7 +113,7 @@ class Home extends Component{
         var defaultParams = {
         'ACCOUNT_NAME': '',
         'TOKEN_NAME': '',
-        'MAX_TOKEN_SUPPLY': '999111222',
+        'MAX_TOKEN_SUPPLY': '9111222333',
         'SNAPSHOT_MONTH': '',
         'MIN_EOS_HELD': '',
         'MAX_EOS_HELD': '',
